@@ -1,9 +1,10 @@
 # epitech-bistromatic
 
-Epitech bistromatic Project. Made with Noa Trachez and Clément Vandeville.
+Epitech bistromatic Project. Made with Noa Trachez and Clément Vandeville - Epitech LILLE, class of 2026.
+
 The goal of this project was to create an infinite calculator, which is able to compute mathematical operations in any given base and with any given operator set.
 
-As a bonus, we handled exponents and floating point numbers on every operator - including floating point exponents.
+As a bonus, we handled exponents and floating point numbers on every operator - including floating point exponents.  
 Also, I made a graphical calculator (using CPP and Qt5) to encapsulate all of this.
 
 ## How to build and use
