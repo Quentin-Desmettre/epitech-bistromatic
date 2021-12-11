@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bistromatic</class>
+ <widget class="QWidget" name="bistromatic">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>657</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextEdit" name="results"/>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="2">
+      <widget class="QPushButton" name="pushButton_24">
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;-</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="text">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="pushButton_20">
+       <property name="text">
+        <string>%</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>/</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="pushButton_17">
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="text">
+        <string>.</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="text">
+        <string>9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="pushButton_23">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Quit</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>???</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QPushButton" name="pushButton_18">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>=</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton_21">
+       <property name="text">
+        <string>(</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="pushButton_22">
+       <property name="text">
+        <string>)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>*</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="text">
+        <string>^</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>163</x>
+     <y>481</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>112</x>
+     <y>372</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_16</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>293</x>
+     <y>514</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>61</x>
+     <y>458</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_20</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>389</x>
+     <y>481</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>74</x>
+     <y>394</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>303</x>
+     <y>494</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>312</x>
+     <y>421</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>312</x>
+     <y>526</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>380</x>
+     <y>518</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>303</x>
+     <y>564</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>382</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>319</x>
+     <y>596</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>363</x>
+     <y>592</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_18</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>333</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>372</x>
+     <y>619</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_20</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>389</x>
+     <y>481</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>365</x>
+     <y>456</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>210</x>
+     <y>538</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>386</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>224</x>
+     <y>560</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>389</x>
+     <y>477</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>224</x>
+     <y>595</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>385</x>
+     <y>325</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_14</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>631</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>366</x>
+     <y>535</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>141</x>
+     <y>524</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>114</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>144</x>
+     <y>558</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>269</x>
+     <y>409</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>157</x>
+     <y>608</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>313</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>158</x>
+     <y>624</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>296</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_15</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>42</x>
+     <y>538</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>35</x>
+     <y>337</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_17</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>53</x>
+     <y>570</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>132</x>
+     <y>286</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>68</x>
+     <y>593</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>206</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_19</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>76</x>
+     <y>481</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>124</x>
+     <y>321</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_22</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>145</x>
+     <y>503</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>387</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_21</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>500</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>483</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_23</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>58</x>
+     <y>641</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>505</x>
+     <y>559</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_24</sender>
+   <signal>clicked()</signal>
+   <receiver>bistromatic</receiver>
+   <slot>do_action()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>251</x>
+     <y>472</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>513</x>
+     <y>430</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>do_action()</slot>
+ </slots>
+</ui>
