@@ -14,29 +14,36 @@ First of all, clone the repo and cd into it.
 
 Build:  
 >> $ make official
+
 Usage:  
 >> $ echo what_you_want_to_compute | ./calc base operators size_to_read
-Example:
 
+Example:
 >> $ echo "2+5\*8" | ./calc "0123456789" "()+-\*/%" 5  
 >> \>\> 42
+
 ### Easy bistromatic:
 
 Build:
 >> $ make easy
+
 Usage:
 >> $ ./calc what_you_want_to_compute
+
 Example:
 >> $ ./calc "2+5\*8"  
 >> \>\> 42
+
 ### Graphic bistromatic:
 
 To use the graphical version of the bistromatic, you need Qt5 installed on your computer.
 
 Build:
 >> $ make graphical
+
 Usage:
 >> $ ./graphic
+
 ## General considerations
 
 Epitech students, beware of -84/-42 if you copy/paste this repository !
