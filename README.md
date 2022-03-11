@@ -13,38 +13,45 @@ First of all, clone the repo and cd into it.
 
 ### Epitech bistromatic:
 
-Build:  
->> $ make official
-
-Usage:  
->> $ echo what_you_want_to_compute | ./calc base operators size_to_read
-
+Build:
+```bash
+make official
+```
+Usage:
+```bash
+echo what_you_want_to_compute | ./calc base operators size_to_read
+```
 Example:
->> $ echo "2+5\*8" | ./calc "0123456789" "()+-\*/%" 5  
->> \>\> 42
+```bash
+echo "2+5\*8" | ./calc "0123456789" "()+-\*/%" 5
+>> 42
+```
 
 ### Easy bistromatic:
 
 Build:
->> $ make easy
-
+```bash
+make easy
+```
 Usage:
->> $ ./calc what_you_want_to_compute
-
+```bash
+./calc what_you_want_to_compute
+```
 Example:
->> $ ./calc "2+5\*8"  
->> \>\> 42
+```bash
+./calc "2+5\*8" 
+>> 42
+```
 
 ### Graphic bistromatic:
 
-To use the graphical version of the bistromatic, you need Qt5 installed on your computer.
+To use the graphical version of the bistromatic, you need [Qt5](https://www.qt.io/) installed on your computer.
 
 Build:
->> $ make graphical
-
+```bash
+make graphical
+```
 Usage:
->> $ ./graphic
-
-## General considerations
-
-Epitech students, beware of -84/-42 if you copy/paste this repository !
+```bash
+./graphic
+```
